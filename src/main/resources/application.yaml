@@ -1,0 +1,15 @@
+server:
+  port: ${SERVER_PORT}
+
+spring:
+  profiles:
+    active: local
+  application:
+    name: SMART-EXAM
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+      database-platform: org.hibernate.dialect.MySQLInnoDBDialect
