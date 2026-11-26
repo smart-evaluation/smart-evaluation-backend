@@ -1,0 +1,2 @@
+ALTER TABLE exam_attempt_answers
+ADD COLUMN is_visited BOOLEAN NOT NULL DEFAULT FALSE;

@@ -14,9 +14,9 @@
     </parent>
 
     <groupId>com.smartexam</groupId>
-    <artifactId>smartexam</artifactId>
+    <artifactId>smartexam-backend</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>smartexam</name>
+    <name>smartexam-backend</name>
     <description>SmartExam Online Examination SaaS Platform</description>
 
     <properties>
